@@ -55,7 +55,7 @@ housing = housing_mapping.get(housingc, None)
 
 
 with col8:
-    contactc = st.selectbox('Select Contact Type', sorted(contacts))
+    contactc = st.selectbox('Select Contact', sorted(contacts))
 contact = contact_mapping.get(contactc, None)
 
 
