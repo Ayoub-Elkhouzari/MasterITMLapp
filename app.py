@@ -23,18 +23,18 @@ contact_mapping = {'cellular':  0,'telephone':  1,'unknown':  2,}
 
 col1, col2= st.columns(2)
 with col1:
-    age = st.text_input('age')
+    age = st.text_input('Age')
 
 with col2:
-    balancePerYear = st.text_input('balancePerYear')
+    balancePerYear = st.text_input('BalancePerYear')
     
 col3, col4= st.columns(2)
 
 with col3:
-    duration = st.text_input('duration')
+    duration = st.text_input('Duration')
 
 with col4:
-    pdays = st.text_input('pdays')
+    pdays = st.text_input('Pdays')
 
 
 col5, col6= st.columns(2)
@@ -50,7 +50,7 @@ marital = marital_mapping.get(maritalc, None)
 
 col7, col8= st.columns(2)
 with col7:
-    housingc = st.selectbox('Select housing', sorted(housings))
+    housingc = st.selectbox('Select Housing', sorted(housings))
 housing = housing_mapping.get(housingc, None)
 
 
